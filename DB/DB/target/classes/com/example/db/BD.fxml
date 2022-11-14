@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="579.0" prefWidth="1002.0" stylesheets="@BD.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.db.BD">
+   <children>
+      <Pane layoutX="79.0" layoutY="94.0" prefHeight="407.0" prefWidth="845.0" style="-fx-background-color: yellow;">
+         <children>
+            <Pane fx:id="buttonRefresh" layoutX="657.0" layoutY="148.0" prefHeight="39.0" prefWidth="182.0" style="-fx-background-color: black;">
+               <children>
+                  <Label layoutX="22.0" layoutY="9.0" text="Обновить" />
+               </children></Pane>
+            <Pane fx:id="buttonAdd" layoutX="656.0" layoutY="204.0" prefHeight="39.0" prefWidth="182.0" style="-fx-background-color: black;">
+               <children>
+                  <Label layoutX="29.0" layoutY="10.0" text="Добавить" />
+               </children></Pane>
+            <Pane fx:id="buttonChange" layoutX="656.0" layoutY="29.0" prefHeight="39.0" prefWidth="182.0" style="-fx-background-color: black;">
+               <children>
+                  <Label layoutX="29.0" layoutY="13.0" text="Изменить" />
+               </children></Pane>
+            <Pane fx:id="buttonDelete" layoutX="657.0" layoutY="90.0" prefHeight="39.0" prefWidth="182.0" style="-fx-background-color: black;">
+               <children>
+                  <Label layoutX="11.0" layoutY="10.0" text="Удалить" />
+               </children></Pane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,21 @@
+.root{
+    -fx-background-image: url("bg.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+#buttonAdd{
+    -fx-background-image: url("buttonBG.png");
+    -fx-background-size: cover;
+}
+#buttonChange{
+    -fx-background-image: url("buttonBG.png");
+    -fx-background-size: cover;
+}
+#buttonDelete{
+    -fx-background-image: url("buttonBG.png");
+    -fx-background-size: cover;
+}
+#buttonRefresh{
+    -fx-background-image: url("buttonBG.png");
+    -fx-background-size: cover;
+}
