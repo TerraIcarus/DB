@@ -4,15 +4,16 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Connect {
-    public void Connect(String username,String password,String jdbcURL)
+    public static Connection Connect(String username, String password, String jdbcURL)
     {
         try {
-            java.sql.Connection connection = DriverManager.getConnection(username, password, jdbcURL);
+            java.sql.Connection connection = DriverManager.getConnection(jdbcURL, username, password) ;
             System.out.println("Connected!");
-            connection.close();
+            return connection;
         } catch (SQLException e){
             System.out.println("Connection error");
             e.printStackTrace();
+            return null;
         }
     }
 

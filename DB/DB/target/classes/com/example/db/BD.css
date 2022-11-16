@@ -15,7 +15,7 @@
     -fx-background-image: url("buttonBG.png");
     -fx-background-size: cover;
 }
-#buttonRefresh{
+#buttonUpdate{
     -fx-background-image: url("buttonBG.png");
     -fx-background-size: cover;
 }

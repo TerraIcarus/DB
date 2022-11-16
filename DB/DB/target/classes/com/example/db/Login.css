@@ -22,8 +22,8 @@
     -fx-background-color: #FFF59D;
 }
 .fieldFail{
-    -fx-background-color: #FFF59D; //заменить
+    -fx-background-color: #F57F7F; //заменить
 }
 .imgFail{
-    -fx-image:url("bee.png"); //заменить
+    -fx-image:url("SetKill.png"); //заменить
 }
