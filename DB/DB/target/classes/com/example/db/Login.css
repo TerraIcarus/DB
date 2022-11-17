@@ -3,27 +3,15 @@
     -fx-background-repeat: no-repeat;
     -fx-background-size: cover;
 }
-#img1{
+#img1, #img2{
     -fx-image:url("bee.png");
 }
-#img2{
-    -fx-image:url("bee.png");
-}
-#field1{
-    -fx-background-color: #FFF59D;
-}
-#field2{
-    -fx-background-color: #FFF59D;
-}
-#field3{
-    -fx-background-color: #FFF59D;
-}
-#field4{
+#field1, #field2, #field3, #field4{
     -fx-background-color: #FFF59D;
 }
 .fieldFail{
     -fx-background-color: #F57F7F; //заменить
 }
-.imgFail{
+.img1:error{
     -fx-image:url("SetKill.png"); //заменить
 }

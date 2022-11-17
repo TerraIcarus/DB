@@ -21,16 +21,6 @@ public class HelloApplication extends Application {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter login");
-        String username=scanner.nextLine();
-        System.out.println("Enter password");
-        String password=scanner.nextLine();
-
-        Connect connect= new Connect();
-        connect.Connect(username,password, "jdbc:postgresql://46.229.214.241:5432/MazuninaT");
-
-
         launch();
     }
 }

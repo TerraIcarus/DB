@@ -12,6 +12,6 @@
 .fieldFail{
     -fx-background-color: #F57F7F; //заменить
 }
-.imgFail{
+.img1:error{
     -fx-image:url("SetKill.png"); //заменить
 }
